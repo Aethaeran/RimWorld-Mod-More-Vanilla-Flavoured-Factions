@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectTagDef>
+		<defName>ClassicStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>TribalStart</defName>
+	</ResearchProjectTagDef>
+
+	<ResearchProjectTagDef>
+		<defName>UndefinedStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>AnimalStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>NeolithicStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>MedievalStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>IndustrialStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>SpacerStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>UltraStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>ArchotechStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>StarflightStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+		<defName>NoResearchStart</defName>
+	</ResearchProjectTagDef>
+
+  <ResearchProjectTagDef>
+    <defName>ShipRelated</defName>
+  </ResearchProjectTagDef>
+  
+</Defs>
