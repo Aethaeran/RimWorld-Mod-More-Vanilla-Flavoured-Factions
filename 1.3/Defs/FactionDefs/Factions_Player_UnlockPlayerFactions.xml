@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+<!-- # TODO: Figure out how to have multiple categoryTags on one factions so that we can have multiple hairstyles per faction like before.   -->
+
 <!-- bases -->
 
    <FactionDef ParentName="FactionBase" Abstract="True" Name="PlayerFactionBase">
@@ -19,9 +21,7 @@
       <description>Tech Level = Undefined</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Tribal</li>
-      </categoryTag>
+      <categoryTag>Tribal</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -51,9 +51,7 @@
       <description>Tech Level = Animal</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Tribal</li>
-      </categoryTag>
+      <categoryTag>Tribal</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -96,10 +94,7 @@
       <description>Tech Level = Neolithic</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Tribal</li>
-         <li>Rural</li>
-      </categoryTag>
+      <categoryTag>Tribal</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -146,10 +141,7 @@
       <description>Tech Level = Medieval</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Tribal</li>
-         <li>Rural</li>
-      </categoryTag>
+      <categoryTag>Rural</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -198,10 +190,7 @@
       <description>Tech Level = Industrial</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Rural</li>
-         <li>Urban</li>
-      </categoryTag>
+      <categoryTag>Rural</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -231,10 +220,7 @@
       <description>Tech Level = Spacer</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Rural</li>
-         <li>Urban</li>
-      </categoryTag>
+      <categoryTag>Urban</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -265,9 +251,7 @@
       <description>Tech Level = Ultra</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Urban</li>
-      </categoryTag>
+      <categoryTag>Urban</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -299,9 +283,7 @@
       <description>Tech Level = Archotech</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Urban</li>
-      </categoryTag>
+      <categoryTag>Urban</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -331,9 +313,7 @@
       <description>Tech Level = Starflight</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <categoryTag>
-         <li>Urban</li>
-      </categoryTag>
+      <categoryTag>Urban</categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
