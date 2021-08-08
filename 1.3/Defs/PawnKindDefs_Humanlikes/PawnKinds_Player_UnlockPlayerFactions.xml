@@ -78,6 +78,7 @@
 	</inventoryOptions>
 	<invFoodDef>Pemmican</invFoodDef>
 	<invNutrition>1</invNutrition>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 
 <PawnKindDef ParentName="BasePlayerPawnKind">
@@ -145,6 +146,7 @@
 	</inventoryOptions>
 	<invFoodDef>Pemmican</invFoodDef>
 	<invNutrition>2.13</invNutrition>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>NeolithicColonist</defName>
@@ -212,6 +214,7 @@
 	</inventoryOptions>
 	<invFoodDef>Pemmican</invFoodDef>
 	<invNutrition>3.26</invNutrition>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>MedievalColonist</defName>
@@ -283,6 +286,7 @@
 	</inventoryOptions>
 	<invFoodDef>Pemmican</invFoodDef>
 	<invNutrition>4.39</invNutrition>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>IndustrialColonist</defName>
@@ -358,6 +362,7 @@
 	<min>0</min>
 	<max>1</max>
 	</combatEnhancingDrugsCount>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>SpacerColonist</defName>
@@ -435,6 +440,7 @@
 	<min>0</min>
 	<max>2</max>
 	</combatEnhancingDrugsCount>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>UltraColonist</defName>
@@ -514,6 +520,7 @@
 	<min>0</min>
 	<max>2</max>
 	</combatEnhancingDrugsCount>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>ArchotechColonist</defName>
@@ -593,6 +600,7 @@
 	<min>1</min>
 	<max>2</max>
 	</combatEnhancingDrugsCount>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>StarflightColonist</defName>
@@ -671,6 +679,7 @@
 	<min>1</min>
 	<max>2</max>
 	</combatEnhancingDrugsCount>
+    <initialResistanceRange>9~15</initialResistanceRange>
 </PawnKindDef>
 
 </Defs>
