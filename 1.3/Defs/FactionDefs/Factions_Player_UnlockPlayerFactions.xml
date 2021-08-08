@@ -1,355 +1,356 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-<FactionDef Abstract="True" Name="PlayerFactionBase">
-<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-<colorSpectrum>
-<li>(0, 0.737, 0.847)</li>
-</colorSpectrum>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerUndefined</defName>
-<label>New Undefined Faction</label>
-<description>Tech Level = Undefined</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Tribal</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>UndefinedColonist</basicMemberKind>
-<startingResearchTags>
-<li>NoResearchStart</li>
-</startingResearchTags>
-<recipePrerequisiteTags>
-<li>Tribal</li>
-</recipePrerequisiteTags>
-<techLevel>Animal</techLevel>
-<backstoryCategories>
-<li>Tribal</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Leather_Patch</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerAnimal</defName>
-<label>New Animal Faction</label>
-<description>Tech Level = Animal</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Tribal</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>AnimalColonist</basicMemberKind>
-<startingResearchTags>
-<li>AnimalStart</li>
-</startingResearchTags>
-<techLevel>Animal</techLevel>
-<backstoryCategories>
-<li>Tribal</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Leather_Plain</li>
-<li>Leather_Dog</li>
-<li>Leather_Wolf</li>
-<li>Leather_Panthera</li>
-<li>Leather_Camel</li>
-<li>Leather_Bluefur</li>
-<li>Leather_Bear</li>
-<li>Leather_Human</li>
-<li>Leather_Pig</li>
-<li>Leather_Light</li>
-<li>Leather_Bird</li>
-<li>Leather_Chinchilla</li>
-<li>Leather_Fox</li>
-<li>Leather_Lizard</li>
-<li>Leather_Elephant</li>
-<li>Leather_Heavy</li>
-<li>Leather_Rhinoceros</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerNeolithic</defName>
-<label>New Neolithic Faction</label>
-<description>Tech Level = Neolithic</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Tribal</li>
-<li>Rural</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>NeolithicColonist</basicMemberKind>
-<startingResearchTags>
-<li>NeolithicStart</li>
-</startingResearchTags>
-<techLevel>Neolithic</techLevel>
-<backstoryCategories>
-<li>Tribal</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Leather_Plain</li>
-<li>Leather_Dog</li>
-<li>Leather_Wolf</li>
-<li>Leather_Panthera</li>
-<li>Leather_Camel</li>
-<li>Leather_Bluefur</li>
-<li>Leather_Bear</li>
-<li>Leather_Human</li>
-<li>Leather_Pig</li>
-<li>Leather_Light</li>
-<li>Leather_Bird</li>
-<li>Leather_Chinchilla</li>
-<li>Leather_Fox</li>
-<li>Leather_Lizard</li>
-<li>Leather_Elephant</li>
-<li>Leather_Heavy</li>
-<li>Leather_Rhinoceros</li>
-<li>WoodLog</li>
-<li>WoolMegasloth</li>
-<li>WoolMuffalo</li>
-<li>WoolCamel</li>
-<li>WoolAlpaca</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerMedieval</defName>
-<label>New Medieval Faction</label>
-<description>Tech Level = Medieval</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Tribal</li>
-<li>Rural</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>MedievalColonist</basicMemberKind>
-<startingResearchTags>
-<li>MedievalStart</li>
-</startingResearchTags>
-<techLevel>Medieval</techLevel>
-<backstoryCategories>
-<li>Tribal</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Cloth</li>
-<li>Leather_Plain</li>
-<li>Leather_Dog</li>
-<li>Leather_Wolf</li>
-<li>Leather_Panthera</li>
-<li>Leather_Camel</li>
-<li>Leather_Bluefur</li>
-<li>Leather_Bear</li>
-<li>Leather_Human</li>
-<li>Leather_Pig</li>
-<li>Leather_Light</li>
-<li>Leather_Bird</li>
-<li>Leather_Chinchilla</li>
-<li>Leather_Fox</li>
-<li>Leather_Lizard</li>
-<li>Leather_Elephant</li>
-<li>Leather_Heavy</li>
-<li>Leather_Rhinoceros</li>
-<li>Steel</li>
-<li>WoodLog</li>
-<li>WoolMegasloth</li>
-<li>WoolMuffalo</li>
-<li>WoolCamel</li>
-<li>WoolAlpaca</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerIndustrial</defName>
-<label>New Industrial Faction</label>
-<description>Tech Level = Industrial</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Rural</li>
-<li>Urban</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>IndustrialColonist</basicMemberKind>
-<startingResearchTags>
-<li>IndustrialStart</li>
-</startingResearchTags>
-<techLevel>Industrial</techLevel>
-<backstoryCategories>
-<li>Civil</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Steel</li>
-<li>WoodLog</li>
-<li>Cloth</li>
-<li>Synthread</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerSpacer</defName>
-<label>New Spacer Faction</label>
-<description>Tech Level = Spacer</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Rural</li>
-<li>Urban</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>SpacerColonist</basicMemberKind>
-<startingResearchTags>
-<li>SpacerStart</li>
-</startingResearchTags>
-<techLevel>Spacer</techLevel>
-<backstoryCategories>
-<li>Traveler</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Plasteel</li>
-<li>Uranium</li>
-<li>Synthread</li>
-<li>DevilstrandCloth</li>
-<li>Hyperweave</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerUltra</defName>
-<label>New Ultra Faction</label>
-<description>Tech Level = Ultra</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Urban</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>UltraColonist</basicMemberKind>
-<startingResearchTags>
-<li>UltraStart</li>
-</startingResearchTags>
-<techLevel>Ultra</techLevel>
-<backstoryCategories>
-<li>Traveler</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Leather_Thrumbo</li>
-<li>Plasteel</li>
-<li>Uranium</li>
-<li>Synthread</li>
-<li>DevilstrandCloth</li>
-<li>Hyperweave</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerArchotech</defName>
-<label>New Archotech Faction</label>
-<description>Tech Level = Archotech</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Urban</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>ArchotechColonist</basicMemberKind>
-<startingResearchTags>
-<li>ArchotechStart</li>
-</startingResearchTags>
-<techLevel>Archotech</techLevel>
-<backstoryCategories>
-<li>Traveler</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Leather_Thrumbo</li>
-<li>Plasteel</li>
-<li>Uranium</li>
-<li>Hyperweave</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
-<FactionDef ParentName="PlayerFactionBase">
-<defName>PlayerStarflight</defName>
-<label>New Starflight Faction</label>
-<description>Tech Level = Starflight</description>
-<pawnSingular>colonist</pawnSingular>
-<pawnsPlural>colonists</pawnsPlural>
-<hairTags>
-<li>Urban</li>
-</hairTags>
-<geneticVariance>1</geneticVariance>
-<isPlayer>true</isPlayer>
-<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-<basicMemberKind>StarflightColonist</basicMemberKind>
-<startingResearchTags>
-<li>StarflightStart</li>
-</startingResearchTags>
-<techLevel>Archotech</techLevel>
-<backstoryCategories>
-<li>FilterSet1</li>
-</backstoryCategories>
-<apparelStuffFilter>
-<thingDefs>
-<li>Leather_Thrumbo</li>
-<li>Plasteel</li>
-<li>Uranium</li>
-<li>Hyperweave</li>
-</thingDefs>
-</apparelStuffFilter>
-<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-</FactionDef>
+   <FactionDef Abstract="True" Name="PlayerFactionBase">
+      <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+      <colorSpectrum>
+         <li>(0, 0.737, 0.847)</li>
+      </colorSpectrum>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerUndefined</defName>
+      <label>New Undefined Faction</label>
+      <description>Tech Level = Undefined</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Tribal</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>UndefinedColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>NoResearchStart</li>
+      </startingResearchTags>
+      <recipePrerequisiteTags>
+         <li>Tribal</li>
+      </recipePrerequisiteTags>
+      <techLevel>Animal</techLevel>
+      <backstoryCategories>
+         <li>Tribal</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Leather_Patch</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerAnimal</defName>
+      <label>New Animal Faction</label>
+      <description>Tech Level = Animal</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Tribal</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>AnimalColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>AnimalStart</li>
+      </startingResearchTags>
+      <techLevel>Animal</techLevel>
+      <backstoryCategories>
+         <li>Tribal</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Leather_Plain</li>
+            <li>Leather_Dog</li>
+            <li>Leather_Wolf</li>
+            <li>Leather_Panthera</li>
+            <li>Leather_Camel</li>
+            <li>Leather_Bluefur</li>
+            <li>Leather_Bear</li>
+            <li>Leather_Human</li>
+            <li>Leather_Pig</li>
+            <li>Leather_Light</li>
+            <li>Leather_Bird</li>
+            <li>Leather_Chinchilla</li>
+            <li>Leather_Fox</li>
+            <li>Leather_Lizard</li>
+            <li>Leather_Elephant</li>
+            <li>Leather_Heavy</li>
+            <li>Leather_Rhinoceros</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerNeolithic</defName>
+      <label>New Neolithic Faction</label>
+      <description>Tech Level = Neolithic</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Tribal</li>
+         <li>Rural</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>NeolithicColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>NeolithicStart</li>
+      </startingResearchTags>
+      <techLevel>Neolithic</techLevel>
+      <backstoryCategories>
+         <li>Tribal</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Leather_Plain</li>
+            <li>Leather_Dog</li>
+            <li>Leather_Wolf</li>
+            <li>Leather_Panthera</li>
+            <li>Leather_Camel</li>
+            <li>Leather_Bluefur</li>
+            <li>Leather_Bear</li>
+            <li>Leather_Human</li>
+            <li>Leather_Pig</li>
+            <li>Leather_Light</li>
+            <li>Leather_Bird</li>
+            <li>Leather_Chinchilla</li>
+            <li>Leather_Fox</li>
+            <li>Leather_Lizard</li>
+            <li>Leather_Elephant</li>
+            <li>Leather_Heavy</li>
+            <li>Leather_Rhinoceros</li>
+            <li>WoodLog</li>
+            <li>WoolMegasloth</li>
+            <li>WoolMuffalo</li>
+            <li>WoolCamel</li>
+            <li>WoolAlpaca</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerMedieval</defName>
+      <label>New Medieval Faction</label>
+      <description>Tech Level = Medieval</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Tribal</li>
+         <li>Rural</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>MedievalColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>MedievalStart</li>
+      </startingResearchTags>
+      <techLevel>Medieval</techLevel>
+      <backstoryCategories>
+         <li>Tribal</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Cloth</li>
+            <li>Leather_Plain</li>
+            <li>Leather_Dog</li>
+            <li>Leather_Wolf</li>
+            <li>Leather_Panthera</li>
+            <li>Leather_Camel</li>
+            <li>Leather_Bluefur</li>
+            <li>Leather_Bear</li>
+            <li>Leather_Human</li>
+            <li>Leather_Pig</li>
+            <li>Leather_Light</li>
+            <li>Leather_Bird</li>
+            <li>Leather_Chinchilla</li>
+            <li>Leather_Fox</li>
+            <li>Leather_Lizard</li>
+            <li>Leather_Elephant</li>
+            <li>Leather_Heavy</li>
+            <li>Leather_Rhinoceros</li>
+            <li>Steel</li>
+            <li>WoodLog</li>
+            <li>WoolMegasloth</li>
+            <li>WoolMuffalo</li>
+            <li>WoolCamel</li>
+            <li>WoolAlpaca</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerIndustrial</defName>
+      <label>New Industrial Faction</label>
+      <description>Tech Level = Industrial</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Rural</li>
+         <li>Urban</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>IndustrialColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>IndustrialStart</li>
+      </startingResearchTags>
+      <techLevel>Industrial</techLevel>
+      <backstoryCategories>
+         <li>Civil</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Steel</li>
+            <li>WoodLog</li>
+            <li>Cloth</li>
+            <li>Synthread</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerSpacer</defName>
+      <label>New Spacer Faction</label>
+      <description>Tech Level = Spacer</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Rural</li>
+         <li>Urban</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>SpacerColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>SpacerStart</li>
+      </startingResearchTags>
+      <techLevel>Spacer</techLevel>
+      <backstoryCategories>
+         <li>Traveler</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Plasteel</li>
+            <li>Uranium</li>
+            <li>Synthread</li>
+            <li>DevilstrandCloth</li>
+            <li>Hyperweave</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerUltra</defName>
+      <label>New Ultra Faction</label>
+      <description>Tech Level = Ultra</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Urban</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>UltraColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>UltraStart</li>
+      </startingResearchTags>
+      <techLevel>Ultra</techLevel>
+      <backstoryCategories>
+         <li>Traveler</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Leather_Thrumbo</li>
+            <li>Plasteel</li>
+            <li>Uranium</li>
+            <li>Synthread</li>
+            <li>DevilstrandCloth</li>
+            <li>Hyperweave</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerArchotech</defName>
+      <label>New Archotech Faction</label>
+      <description>Tech Level = Archotech</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Urban</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>ArchotechColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>ArchotechStart</li>
+      </startingResearchTags>
+      <techLevel>Archotech</techLevel>
+      <backstoryCategories>
+         <li>Traveler</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Leather_Thrumbo</li>
+            <li>Plasteel</li>
+            <li>Uranium</li>
+            <li>Hyperweave</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
+   <FactionDef ParentName="PlayerFactionBase">
+      <defName>PlayerStarflight</defName>
+      <label>New Starflight Faction</label>
+      <description>Tech Level = Starflight</description>
+      <pawnSingular>colonist</pawnSingular>
+      <pawnsPlural>colonists</pawnsPlural>
+      <hairTags>
+         <li>Urban</li>
+      </hairTags>
+      <geneticVariance>1</geneticVariance>
+      <isPlayer>true</isPlayer>
+      <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+      <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+      <basicMemberKind>StarflightColonist</basicMemberKind>
+      <startingResearchTags>
+         <li>StarflightStart</li>
+      </startingResearchTags>
+      <techLevel>Archotech</techLevel>
+      <backstoryCategories>
+         <li>FilterSet1</li>
+      </backstoryCategories>
+      <apparelStuffFilter>
+         <thingDefs>
+            <li>Leather_Thrumbo</li>
+            <li>Plasteel</li>
+            <li>Uranium</li>
+            <li>Hyperweave</li>
+         </thingDefs>
+      </apparelStuffFilter>
+      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+   </FactionDef>
 </Defs>
+
