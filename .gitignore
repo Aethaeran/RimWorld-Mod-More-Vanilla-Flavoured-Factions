@@ -115,3 +115,6 @@ dmypy.json
 
 # PyCharm project settings
 .idea/
+
+# Just a text file for keeping track of RimWorld errors thrown.
+/RimWorld Errors*
