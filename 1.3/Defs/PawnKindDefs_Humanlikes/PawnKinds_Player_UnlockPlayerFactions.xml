@@ -570,7 +570,7 @@
          <li>SpacerGun</li>
       </weaponTags>
       <weaponMoney>
-         <min>270</min>
+         <min>355</min>
          <max>1275</max>
       </weaponMoney>
       <inventoryOptions>
@@ -659,7 +659,7 @@
          <li>SpacerGun</li>
       </weaponTags>
       <weaponMoney>
-         <min>300</min>
+         <min>355</min>
          <max>1400</max>
       </weaponMoney>
       <inventoryOptions>
