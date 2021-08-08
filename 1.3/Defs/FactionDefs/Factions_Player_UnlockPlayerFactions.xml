@@ -36,7 +36,7 @@
             <li>Leather_Patch</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerAnimal</defName>
@@ -81,7 +81,7 @@
             <li>Leather_Rhinoceros</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerNeolithic</defName>
@@ -132,7 +132,7 @@
             <li>WoolAlpaca</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerMedieval</defName>
@@ -185,7 +185,7 @@
             <li>WoolAlpaca</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerIndustrial</defName>
@@ -218,7 +218,7 @@
             <li>Synthread</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerSpacer</defName>
@@ -252,7 +252,7 @@
             <li>Hyperweave</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerUltra</defName>
@@ -286,7 +286,7 @@
             <li>Hyperweave</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerArchotech</defName>
@@ -318,7 +318,7 @@
             <li>Hyperweave</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerStarflight</defName>
@@ -350,7 +350,7 @@
             <li>Hyperweave</li>
          </thingDefs>
       </apparelStuffFilter>
-      <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+      <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
 </Defs>
 
