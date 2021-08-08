@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 <!-- bases -->
+
 <PawnKindDef Abstract="True" Name="BasePlayerPawnKind">
-<race>Human</race>
-<combatPower>30</combatPower>
-<isFighter>false</isFighter>
-<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-<forceNormalGearQuality>true</forceNormalGearQuality>
+	<race>Human</race>
+	<combatPower>30</combatPower>
+	<isFighter>false</isFighter>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+	<forceNormalGearQuality>true</forceNormalGearQuality>
+	<initialWillRange>0~0</initialWillRange>
 </PawnKindDef>
+
+<!-- PawnKinds -->
+
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>UndefinedColonist</defName>
 	<labelMale>undefined man</labelMale>
@@ -73,6 +79,7 @@
 	<invFoodDef>Pemmican</invFoodDef>
 	<invNutrition>1</invNutrition>
 </PawnKindDef>
+
 <PawnKindDef ParentName="BasePlayerPawnKind">
 	<defName>AnimalColonist</defName>
 	<labelMale>animal man</labelMale>
