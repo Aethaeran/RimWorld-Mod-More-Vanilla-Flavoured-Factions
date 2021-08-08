@@ -44,10 +44,10 @@
          <max>100</max>
       </apparelMoney>
       <weaponTags>
-         <li>NeolithicMeleeBasic</li>
          <!--Minimum 41 weaponMoney-->
-         <li>NeolithicRangedBasic</li>
+         <li>NeolithicMeleeBasic</li>
          <!--Minimum 45 weaponMoney-->
+         <li>NeolithicRangedBasic</li>
       </weaponTags>
       <weaponMoney>
          <min>41</min>
@@ -401,6 +401,7 @@
       <weaponTags>
          <li>Gun</li>
          <li>GunHeavy</li>
+         <!--Minimum 355 weaponMoney-->
          <li>IndustrialGunAdvanced</li>
          <li>MedievalMeleeDecent</li>
          <li>MedievalMeleeAdvanced</li>
@@ -482,6 +483,7 @@
          <li>MedievalMeleeAdvanced</li>
          <li>Gun</li>
          <li>GunHeavy</li>
+         <!--Minimum 355 weaponMoney-->
          <li>IndustrialGunAdvanced</li>
          <li>GrenadeDestructive</li>
          <li>GrenadeEMP</li>
@@ -563,6 +565,7 @@
       <apparelColor>(58,58,58)</apparelColor>
       <weaponTags>
          <li>SpacerGun</li>
+         <!--Minimum 355 weaponMoney-->
          <li>IndustrialGunAdvanced</li>
       </weaponTags>
       <weaponMoney>
@@ -629,20 +632,20 @@
          <max>3.2</max>
       </gearHealthRange>
       <apparelTags>
-         <li>IndustrialBasic</li>
          <!--Pants, TShirt, Button Shirt, Parka, Cowboy Hat, Toque-->
-         <li>IndustrialAdvanced</li>
+         <li>IndustrialBasic</li>
          <!--This is just Dusters, Jackets, and Flak Jackets,-->
-         <li>IndustrialMilitaryBasic</li>
+         <li>IndustrialAdvanced</li>
          <!--This is just Flak Vest, Flak Pants, Simple Helmet, and Psychic Foil Helmets-->
-         <li>IndustrialMilitaryAdvanced</li>
+         <li>IndustrialMilitaryBasic</li>
          <!--This is just Advanced Helmets and Psychic Foil Helmets-->
-         <li>SpacerMilitary</li>
+         <li>IndustrialMilitaryAdvanced</li>
          <!--This is just Marine Helmet, Marine Armor and Psychic Foil Helmets-->
-         <li>BeltDefense</li>
+         <li>SpacerMilitary</li>
          <!--This is just Shield Belts-->
-         <li>BeltDefensePop</li>
+         <li>BeltDefense</li>
          <!--This is just Smokepop Belts-->
+         <li>BeltDefensePop</li>
       </apparelTags>
       <apparelMoney>
          <min>1000</min>
@@ -650,6 +653,7 @@
       </apparelMoney>
       <weaponTags>
          <li>SpacerGun</li>
+         <!--Minimum 355 weaponMoney-->
          <li>IndustrialGunAdvanced</li>
       </weaponTags>
       <weaponMoney>
