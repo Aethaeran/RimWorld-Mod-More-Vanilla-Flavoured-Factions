@@ -1,11 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-   <FactionDef Abstract="True" Name="PlayerFactionBase">
+
+<!-- bases -->
+
+   <FactionDef ParentName="FactionBase" Abstract="True" Name="PlayerFactionBase">
       <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+      <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
       <colorSpectrum>
          <li>(0, 0.737, 0.847)</li>
       </colorSpectrum>
    </FactionDef>
+
+<!-- FactionDefs -->
+
    <FactionDef ParentName="PlayerFactionBase">
       <defName>PlayerUndefined</defName>
       <label>New Undefined Faction</label>
