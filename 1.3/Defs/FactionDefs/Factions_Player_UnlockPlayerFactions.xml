@@ -12,9 +12,9 @@
       <description>Tech Level = Undefined</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Tribal</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -44,9 +44,9 @@
       <description>Tech Level = Animal</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Tribal</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -89,10 +89,10 @@
       <description>Tech Level = Neolithic</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Tribal</li>
          <li>Rural</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -140,10 +140,10 @@
       <description>Tech Level = Medieval</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Tribal</li>
          <li>Rural</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -193,10 +193,10 @@
       <description>Tech Level = Industrial</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Rural</li>
          <li>Urban</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -226,10 +226,10 @@
       <description>Tech Level = Spacer</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Rural</li>
          <li>Urban</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -260,9 +260,9 @@
       <description>Tech Level = Ultra</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Urban</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -294,9 +294,9 @@
       <description>Tech Level = Archotech</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Urban</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -326,9 +326,9 @@
       <description>Tech Level = Starflight</description>
       <pawnSingular>colonist</pawnSingular>
       <pawnsPlural>colonists</pawnsPlural>
-      <hairTags>
+      <categoryTag>
          <li>Urban</li>
-      </hairTags>
+      </categoryTag>
       <geneticVariance>1</geneticVariance>
       <isPlayer>true</isPlayer>
       <factionNameMaker>NamerFactionOutlander</factionNameMaker>
