@@ -2,6 +2,7 @@
 <Defs>
 
 <!-- # TODO: Figure out how to have multiple categoryTags on one factions so that we can have multiple hairstyles per faction like before.   -->
+<!-- # TODO: DevMode tests -->
 
 <!-- bases -->
 
@@ -338,4 +339,3 @@
       <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
    </FactionDef>
 </Defs>
-
